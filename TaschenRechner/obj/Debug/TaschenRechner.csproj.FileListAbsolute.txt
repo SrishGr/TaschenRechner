@@ -1,0 +1,20 @@
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\bin\Debug\TaschenRechner.exe.config
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\bin\Debug\TaschenRechner.exe
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\bin\Debug\TaschenRechner.pdb
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\obj\Debug\TaschenRechner.csproj.AssemblyReference.cache
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\obj\Debug\TaschenRechner.Form1.resources
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\obj\Debug\TaschenRechner.Properties.Resources.resources
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\obj\Debug\TaschenRechner.csproj.GenerateResource.cache
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\obj\Debug\TaschenRechner.csproj.CoreCompileInputs.cache
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\obj\Debug\TaschenRechner.exe
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner\TaschenRechner\obj\Debug\TaschenRechner.pdb
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\bin\Debug\TaschenRechner.exe.config
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\bin\Debug\TaschenRechner.exe
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\bin\Debug\TaschenRechner.pdb
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\obj\Debug\TaschenRechner.csproj.AssemblyReference.cache
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\obj\Debug\TaschenRechner.Form1.resources
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\obj\Debug\TaschenRechner.Properties.Resources.resources
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\obj\Debug\TaschenRechner.csproj.GenerateResource.cache
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\obj\Debug\TaschenRechner.csproj.CoreCompileInputs.cache
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\obj\Debug\TaschenRechner.exe
+C:\Users\entwickler\source\repos\onBoarding\TaschenRechner - Kopie\TaschenRechner\obj\Debug\TaschenRechner.pdb
