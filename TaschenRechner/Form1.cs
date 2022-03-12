@@ -19,11 +19,11 @@ namespace TaschenRechner
             resultLabel.Text = firstNum.ToString();
         }
 
-        /// <summary>
-        /// Deals with the numbers button clicks
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <summary> 
+        /// Deals with the numbers button clicks 
+        /// </summary> 
+        /// <param name="sender"></param> 
+        /// <param name="e"></param> 
         private void numPressed(object sender, EventArgs e)
         {
             Button btnPressed = (Button)sender;
@@ -31,11 +31,11 @@ namespace TaschenRechner
             resultLabel.Text += btnPressed.Text;
         }
 
-        /// <summary>
-        /// Deals with all the operator button clicks
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <summary> 
+        /// Deals with all the operator button clicks 
+        /// </summary> 
+        /// <param name="sender"></param> 
+        /// <param name="e"></param> 
         private void operatorPressed(object sender, EventArgs e)
         {
             Button operatorPressed = (Button)sender;
@@ -73,10 +73,10 @@ namespace TaschenRechner
             }
         }
 
-        /// <summary>
-        /// Calculates a result based on the numbers and operators in memory
-        /// </summary>
-        /// <returns></returns>
+        /// <summary> 
+        /// Calculates a result based on the numbers and operators in memory 
+        /// </summary> 
+        /// <returns></returns> 
         private string GetResult()
         {
             string toReturn = string.Empty;
@@ -92,14 +92,14 @@ namespace TaschenRechner
             return toReturn;
         }
 
-        /// <summary>
-        /// Deals with the back button click
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <summary> 
+        /// Deals with the back button click 
+        /// </summary> 
+        /// <param name="sender"></param> 
+        /// <param name="e"></param> 
         private void backspacePressed(object sender, EventArgs e)
         {
-            //content can be 0, 10, 1000
+            //content can be 0, 10, 1000 
             if (resultLabel.Text != startingVlue.ToString())
             {
                 if (resultLabel.Text.Length == 1)
@@ -113,11 +113,11 @@ namespace TaschenRechner
             }
         }
 
-        /// <summary>
-        /// Deals with the clear button click
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <summary> 
+        /// Deals with the clear button click 
+        /// </summary> 
+        /// <param name="sender"></param> 
+        /// <param name="e"></param> 
         private void clearPressed(object sender, EventArgs e)
         {
             firstNum = startingVlue;

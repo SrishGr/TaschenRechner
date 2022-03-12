@@ -3,15 +3,15 @@ namespace TaschenRechner
 {
     partial class Form1
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        /// <summary> 
+        /// Required designer variable. 
+        /// </summary> 
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <summary> 
+        /// Clean up any resources being used. 
+        /// </summary> 
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param> 
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,12 +21,12 @@ namespace TaschenRechner
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Windows Form Designer generated code 
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor. 
+        /// </summary> 
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -56,9 +56,9 @@ namespace TaschenRechner
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // tableLayoutPanel1
-            // 
+            //  
+            // tableLayoutPanel1 
+            //  
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -77,9 +77,9 @@ namespace TaschenRechner
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(984, 761);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // tableLayoutPanel2
-            // 
+            //  
+            // tableLayoutPanel2 
+            //  
             this.tableLayoutPanel2.ColumnCount = 4;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -117,9 +117,9 @@ namespace TaschenRechner
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(978, 527);
             this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // button11
-            // 
+            //  
+            // button11 
+            //  
             this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button11.Location = new System.Drawing.Point(328, 423);
             this.button11.Name = "button11";
@@ -128,9 +128,9 @@ namespace TaschenRechner
             this.button11.Text = "0";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.numPressed);
-            // 
-            // DeleteLastDigit
-            // 
+            //  
+            // DeleteLastDigit 
+            //  
             this.DeleteLastDigit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DeleteLastDigit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteLastDigit.Location = new System.Drawing.Point(247, 3);
@@ -140,9 +140,9 @@ namespace TaschenRechner
             this.DeleteLastDigit.Text = "⌫";
             this.DeleteLastDigit.UseVisualStyleBackColor = true;
             this.DeleteLastDigit.Click += new System.EventHandler(this.backspacePressed);
-            // 
-            // AddSub
-            // 
+            //  
+            // AddSub 
+            //  
             this.AddSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddSub.Location = new System.Drawing.Point(3, 423);
             this.AddSub.Name = "AddSub";
@@ -150,9 +150,9 @@ namespace TaschenRechner
             this.AddSub.TabIndex = 35;
             this.AddSub.Text = "+/-";
             this.AddSub.UseVisualStyleBackColor = true;
-            // 
-            // Additon
-            // 
+            //  
+            // Additon 
+            //  
             this.Additon.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Additon.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Additon.Location = new System.Drawing.Point(735, 318);
@@ -162,9 +162,9 @@ namespace TaschenRechner
             this.Additon.Text = "+";
             this.Additon.UseVisualStyleBackColor = true;
             this.Additon.Click += new System.EventHandler(this.operatorPressed);
-            // 
-            // Subtraction
-            // 
+            //  
+            // Subtraction 
+            //  
             this.Subtraction.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Subtraction.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Subtraction.Location = new System.Drawing.Point(735, 213);
@@ -174,9 +174,9 @@ namespace TaschenRechner
             this.Subtraction.Text = "-";
             this.Subtraction.UseVisualStyleBackColor = true;
             this.Subtraction.Click += new System.EventHandler(this.operatorPressed);
-            // 
-            // Multiplication
-            // 
+            //  
+            // Multiplication 
+            //  
             this.Multiplication.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Multiplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Multiplication.Location = new System.Drawing.Point(735, 108);
@@ -186,9 +186,9 @@ namespace TaschenRechner
             this.Multiplication.Text = "×";
             this.Multiplication.UseVisualStyleBackColor = true;
             this.Multiplication.Click += new System.EventHandler(this.operatorPressed);
-            // 
-            // Division
-            // 
+            //  
+            // Division 
+            //  
             this.Division.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Division.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Division.Location = new System.Drawing.Point(735, 3);
@@ -198,9 +198,9 @@ namespace TaschenRechner
             this.Division.Text = "÷";
             this.Division.UseVisualStyleBackColor = true;
             this.Division.Click += new System.EventHandler(this.operatorPressed);
-            // 
-            // Percentage
-            // 
+            //  
+            // Percentage 
+            //  
             this.Percentage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Percentage.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Percentage.Location = new System.Drawing.Point(491, 3);
@@ -210,9 +210,9 @@ namespace TaschenRechner
             this.Percentage.Text = "%";
             this.Percentage.UseVisualStyleBackColor = true;
             this.Percentage.Click += new System.EventHandler(this.operatorPressed);
-            // 
-            // EqualTo
-            // 
+            //  
+            // EqualTo 
+            //  
             this.EqualTo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.EqualTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EqualTo.Location = new System.Drawing.Point(735, 423);
@@ -222,9 +222,9 @@ namespace TaschenRechner
             this.EqualTo.Text = "=";
             this.EqualTo.UseVisualStyleBackColor = true;
             this.EqualTo.Click += new System.EventHandler(this.equalOperatorPressed);
-            // 
-            // Clear
-            // 
+            //  
+            // Clear 
+            //  
             this.Clear.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Clear.Location = new System.Drawing.Point(3, 3);
@@ -234,9 +234,9 @@ namespace TaschenRechner
             this.Clear.Text = "C";
             this.Clear.UseVisualStyleBackColor = true;
             this.Clear.Click += new System.EventHandler(this.clearPressed);
-            // 
-            // button1
-            // 
+            //  
+            // button1 
+            //  
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button1.Location = new System.Drawing.Point(84, 108);
             this.button1.Name = "button1";
@@ -245,9 +245,9 @@ namespace TaschenRechner
             this.button1.Text = "7";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button2
-            // 
+            //  
+            // button2 
+            //  
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button2.Location = new System.Drawing.Point(328, 108);
             this.button2.Name = "button2";
@@ -256,9 +256,9 @@ namespace TaschenRechner
             this.button2.Text = "8";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button3
-            // 
+            //  
+            // button3 
+            //  
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button3.Location = new System.Drawing.Point(572, 108);
             this.button3.Name = "button3";
@@ -267,9 +267,9 @@ namespace TaschenRechner
             this.button3.Text = "9";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button4
-            // 
+            //  
+            // button4 
+            //  
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button4.Location = new System.Drawing.Point(84, 213);
             this.button4.Name = "button4";
@@ -278,9 +278,9 @@ namespace TaschenRechner
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button5
-            // 
+            //  
+            // button5 
+            //  
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button5.Location = new System.Drawing.Point(328, 213);
             this.button5.Name = "button5";
@@ -289,9 +289,9 @@ namespace TaschenRechner
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button6
-            // 
+            //  
+            // button6 
+            //  
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button6.Location = new System.Drawing.Point(572, 213);
             this.button6.Name = "button6";
@@ -300,9 +300,9 @@ namespace TaschenRechner
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button7
-            // 
+            //  
+            // button7 
+            //  
             this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button7.Location = new System.Drawing.Point(84, 318);
             this.button7.Name = "button7";
@@ -311,9 +311,9 @@ namespace TaschenRechner
             this.button7.Text = "1";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button8
-            // 
+            //  
+            // button8 
+            //  
             this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button8.Location = new System.Drawing.Point(328, 318);
             this.button8.Name = "button8";
@@ -322,9 +322,9 @@ namespace TaschenRechner
             this.button8.Text = "2";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button9
-            // 
+            //  
+            // button9 
+            //  
             this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button9.Location = new System.Drawing.Point(572, 318);
             this.button9.Name = "button9";
@@ -333,9 +333,9 @@ namespace TaschenRechner
             this.button9.Text = "3";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.numPressed);
-            // 
-            // button10
-            // 
+            //  
+            // button10 
+            //  
             this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.button10.Location = new System.Drawing.Point(572, 423);
             this.button10.Name = "button10";
@@ -344,9 +344,9 @@ namespace TaschenRechner
             this.button10.Text = ".";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.numPressed);
-            // 
-            // resultLabel
-            // 
+            //  
+            // resultLabel 
+            //  
             this.resultLabel.AutoSize = true;
             this.resultLabel.Dock = System.Windows.Forms.DockStyle.Right;
             this.resultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -356,9 +356,9 @@ namespace TaschenRechner
             this.resultLabel.TabIndex = 2;
             this.resultLabel.Text = "Result";
             this.resultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // memoryLabel
-            // 
+            //  
+            // memoryLabel 
+            //  
             this.memoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.memoryLabel.AutoSize = true;
             this.memoryLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -367,9 +367,9 @@ namespace TaschenRechner
             this.memoryLabel.Size = new System.Drawing.Size(76, 25);
             this.memoryLabel.TabIndex = 3;
             this.memoryLabel.Text = "Mem: ";
-            // 
-            // Form1
-            // 
+            //  
+            // Form1 
+            //  
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 761);
